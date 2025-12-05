@@ -1,0 +1,34 @@
+.cardWrapper {
+  display: flex;
+  margin-left: 140px;
+  gap: 200px;
+  flex-grow: 1;
+}
+
+.card__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__title  {
+  color: #D58C51;
+}
+
+.card__price  {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.card__prBtn  {
+  display: flex;
+  gap: 120px;
+}
+
+.card__btn  {
+  height: 42px;
+  padding: 12px 62px;
+  color: black;
+  background-color: #D58C51;
+  align-self: center;
+}

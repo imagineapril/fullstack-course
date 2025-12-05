@@ -1,0 +1,38 @@
+.orderWrapper {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-grow: 1;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+label {
+  padding: 20px;
+}
+
+button {
+  width: 200px;
+  height: 42px;
+  border: 1px solid #D58C51;
+  background-color: transparent;
+  color: #D58C51;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.orderFooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #D58C51;
+  padding-top: 20px;
+}

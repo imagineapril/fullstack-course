@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 75px;
+  padding: 30px;
+}
+  .header__inner,
+  .header__inner-products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .header__inner-products {
+    position: relative;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: right;
+  }
+
+  .button {
+    width: 200px;
+    height: 42px;
+    border: 1px solid #D58C51;
+    background-color: transparent;
+    color: #D58C51;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+  }

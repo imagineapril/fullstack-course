@@ -1,0 +1,22 @@
+
+.paginationWrapper  {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D58C51;
+  color: white;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link_active  {
+  color:  #D58C51;
+  text-decoration: none;
+}

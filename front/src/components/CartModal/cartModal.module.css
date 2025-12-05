@@ -1,0 +1,29 @@
+.cartModalContainer {
+  position: absolute;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: auto;
+  padding: 20px 0;
+  background-color: #D58C51;
+}
+
+.cardModalHeader {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__card {
+  padding: 20px;
+}
+
+.isCartOpen {
+  right: 0;
+  transition: all 1s ease-in;
+}
+
+button {
+  background-color: #D58C51;
+}
