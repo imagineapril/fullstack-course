@@ -1,0 +1,41 @@
+version: '2.35.1'
+
+services:
+
+  october_postgres:
+    image: postgres:latest
+    container_name: october_postgres
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - 17000:5432
+    networks:
+      - postgres
+    environment:
+      - POSTGRES_DB=october_db
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=123456
+
+  october_pg:
+    image: dpage/pgadmin4:7.8
+    container_name: october_pg
+    restart: always
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    ports:
+      - 17001:80
+    networks:
+     - postgres
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.ru
+      - PGADMIN_DEFAULT_PASSWORD=123456
+
+networks:
+  postgres:
+    driver: bridge
+    name: bridge-october-postgres
+
+volumes:
+  postgres_data:
+  pgadmin_data:

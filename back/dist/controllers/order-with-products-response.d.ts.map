@@ -1,0 +1,1 @@
+{"version":3,"file":"order-with-products-response.d.ts","sourceRoot":"","sources":["../../src/controllers/order-with-products-response.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,kBAAkB,CAAC;AAE5C,MAAM,WAAW,kBAAkB;IACjC,EAAE,EAAE,MAAM,CAAC;IACX,OAAO,EAAE,MAAM,CAAC;IAChB,OAAO,EAAE,MAAM,CAAC;IAChB,OAAO,EAAE,MAAM,CAAC;IAChB,QAAQ,EAAE,QAAQ,EAAE,CAAC;CACtB"}

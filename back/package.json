@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "_comment": "concurrently \"npx tsc --watch\" \"nodemon ./dist/index.js\"",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon --exec 'node ./dist/index.js'\"",
+    "format": "prettier \"src//*.ts\"",
+    "format:fix": "prettier --write \"src//*.ts\"",
+    "lint": "npx eslint ./src",
+    "lint:fix": "npx eslint ./src --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.37.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/pg": "^8.15.6",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  }
+}

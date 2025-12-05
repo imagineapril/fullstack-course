@@ -1,0 +1,1 @@
+{"version":3,"file":"getAccessTokenFromRequest.d.ts","sourceRoot":"","sources":["../../src/utils/getAccessTokenFromRequest.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,OAAO,EAAE,MAAM,SAAS,CAAC;AAEvC,eAAO,MAAM,yBAAyB,GAAI,SAAS,OAAO,KAAG,MAAM,GAAG,IAarE,CAAA"}

@@ -1,0 +1,45 @@
+Категории
+
+http://localhost:9002/api/v1/categories get - получение всех категорий
+/categories post - создание категории
+/categories/{id} - get - получение категории по id
+/categories/{id} - patch - изменение категории по id
+/categories/{id} - delete - удаление категории по id
+/categories/{id}/goods get - получение товаров определенной категории
+
+Товары
+
+/goods get - получение всех товаров
+/goods post - создание товара
+/goods/{id} get - получение товара по id
+/goods/{id} patch - изменение товара по id
+/goods/{id} delete - удаление товара по id
+
+Пользователи
+
+/users get - получение всех пользователей
+/users post - создание пользователя
+/users/{id} get - получение пользователя по id
+/users/{id} patch - изменение пользователя по id
+/users/{id} delete - удаление пользователя по id
+
+Корзины
+
+/baskets/{user_id} get - получение корзины пользователя по id
+/baskets/{user_id}/add post - добавление товара в корзину пользователя
+/baskets/{user_id}/good patch - изменение количества товара в корзине пользователя
+
+Заказы
+
+/orders get - получение всех заказов
+/orders/{order_id}/goods - получение товаров из заказа
+/orders/{order_id} get - получение заказа по id
+/orders post - оформление заказа
+/orders/users/{user_id} - получение заказов пользователя по id
+
+Авторизация
+
+/registration post - регистрация в приложении
+/login post - вход в приложение
+/logout get - выход из приложения
+/refresh get - запрос на обновления токена доступа
